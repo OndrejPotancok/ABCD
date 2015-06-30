@@ -16,21 +16,21 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl_siluette.png" translatesAutoresizingMaskIntoConstraints="NO" id="ibr-C9-LwL">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl_siluette" translatesAutoresizingMaskIntoConstraints="NO" id="ibr-C9-LwL">
                     <rect key="frame" x="150" y="50" width="300" height="300"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="300" id="HeD-6e-GSt"/>
                         <constraint firstAttribute="width" constant="300" id="wV1-Tu-5QT"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goat.png" translatesAutoresizingMaskIntoConstraints="NO" id="5IQ-3B-bqC">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goat" translatesAutoresizingMaskIntoConstraints="NO" id="5IQ-3B-bqC">
                     <rect key="frame" x="250" y="490" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="YGm-Kk-yBw"/>
                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="z8b-Qs-8cD"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow.png" translatesAutoresizingMaskIntoConstraints="NO" id="irR-mY-QoV">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="irR-mY-QoV">
                     <rect key="frame" x="490" y="490" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="KL0-n1-uAf"/>
@@ -38,7 +38,7 @@
                         <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="sIi-uq-FnP"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl.png" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-0A-AmE">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-0A-AmE">
                     <rect key="frame" x="10" y="490" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="Rcp-G5-IVY"/>
@@ -69,9 +69,9 @@
         </view>
     </objects>
     <resources>
-        <image name="cow.png" width="213" height="213"/>
-        <image name="goat.png" width="213" height="213"/>
-        <image name="owl.png" width="213" height="213"/>
-        <image name="owl_siluette.png" width="516" height="516"/>
+        <image name="cow" width="213" height="213"/>
+        <image name="goat" width="213" height="213"/>
+        <image name="owl" width="213" height="213"/>
+        <image name="owl_siluette" width="516" height="516"/>
     </resources>
 </document>
