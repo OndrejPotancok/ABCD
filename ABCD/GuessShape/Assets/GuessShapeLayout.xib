@@ -6,23 +6,72 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="backgroundView" customClass="GuessShapeBackgroundView" customModule="ABCD" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="469" y="333"/>
-        </view>
-        <view contentMode="scaleToFill" id="tPQ-Xl-eYQ" userLabel="gameView" customClass="GuessShapeGameView" customModule="ABCD" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="fQD-SA-YaO" customClass="GuessShapeBackgroundView" customModule="ABCD" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="1149" y="333"/>
+            <color key="backgroundColor" red="0.2470588235" green="0.68627450980000004" blue="0.60784313729999995" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="1723" y="1553"/>
         </view>
-        <view contentMode="scaleToFill" id="v1v-9a-2fP" userLabel="hudView" customClass="GuessShapeHudView" customModule="ABCD" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="afY-Ga-bYn" customClass="GuessShapeGameView" customModule="ABCD" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="1818" y="333"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl_siluette.png" translatesAutoresizingMaskIntoConstraints="NO" id="ibr-C9-LwL">
+                    <rect key="frame" x="150" y="50" width="300" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="HeD-6e-GSt"/>
+                        <constraint firstAttribute="width" constant="300" id="wV1-Tu-5QT"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goat.png" translatesAutoresizingMaskIntoConstraints="NO" id="5IQ-3B-bqC">
+                    <rect key="frame" x="250" y="490" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="YGm-Kk-yBw"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="z8b-Qs-8cD"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow.png" translatesAutoresizingMaskIntoConstraints="NO" id="irR-mY-QoV">
+                    <rect key="frame" x="490" y="490" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="KL0-n1-uAf"/>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="Vz5-Zh-shn"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="sIi-uq-FnP"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl.png" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-0A-AmE">
+                    <rect key="frame" x="10" y="490" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Rcp-G5-IVY"/>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="h0T-aL-ijC"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5IQ-3B-bqC" secondAttribute="bottom" constant="10" id="6EK-1P-7dA"/>
+                <constraint firstItem="JZw-0A-AmE" firstAttribute="leading" secondItem="afY-Ga-bYn" secondAttribute="leading" constant="10" id="6VZ-fv-bph"/>
+                <constraint firstAttribute="centerX" secondItem="ibr-C9-LwL" secondAttribute="centerX" id="GVc-nA-vpf"/>
+                <constraint firstItem="ibr-C9-LwL" firstAttribute="top" secondItem="afY-Ga-bYn" secondAttribute="top" constant="50" id="Ko8-mp-gaF"/>
+                <constraint firstAttribute="centerX" secondItem="5IQ-3B-bqC" secondAttribute="centerX" id="Mr4-yE-hKN"/>
+                <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="irR-mY-QoV" secondAttribute="trailing" constant="10" id="Vez-A3-M50"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5IQ-3B-bqC" secondAttribute="bottom" constant="10" id="aUS-14-YCf"/>
+                <constraint firstAttribute="trailing" secondItem="irR-mY-QoV" secondAttribute="trailing" constant="10" id="k3r-0k-94U"/>
+                <constraint firstAttribute="bottom" secondItem="JZw-0A-AmE" secondAttribute="bottom" constant="10" id="kn4-qK-3sN"/>
+                <constraint firstAttribute="bottom" secondItem="irR-mY-QoV" secondAttribute="bottom" constant="10" id="ut0-sB-go3"/>
+            </constraints>
+            <point key="canvasLocation" x="956" y="1511"/>
+        </view>
+        <view contentMode="scaleToFill" id="fxx-LG-pA8" customClass="GuessShapeHudView" customModule="ABCD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="961" y="764"/>
         </view>
     </objects>
+    <resources>
+        <image name="cow.png" width="213" height="213"/>
+        <image name="goat.png" width="213" height="213"/>
+        <image name="owl.png" width="213" height="213"/>
+        <image name="owl_siluette.png" width="516" height="516"/>
+    </resources>
 </document>
