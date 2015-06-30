@@ -23,7 +23,6 @@ class MenuViewController: UIViewController {
     
 
     @IBAction func menuButtonPressed(sender: AnyObject) {
-        
         if let gameModel = getGameModelByName((sender as! UIButton).currentTitle!) {
             if let mainGameController = MainGameController.createGameControllerByGameModel(gameModel) {
                 performSegueWithIdentifier("startGame", sender: mainGameController)

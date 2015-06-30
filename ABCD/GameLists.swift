@@ -13,7 +13,8 @@ import UIKit
 var gameModelArray: [MainGameModel] = [
     
     ExampleGameModel(name: "Example", codeName: "Example") as MainGameModel,
-    TestGameModel(name: "Test", codeName: "Test") as MainGameModel
+    TestGameModel(name: "Test", codeName: "Test") as MainGameModel,
+    GuessShapeGameModel(name: "Guess Shape", codeName: "GuessShape") as MainGameModel
 ]
 
 
@@ -26,6 +27,8 @@ extension MainGameController {
             return ExampleGameController(gameModel: gameModel) as MainGameController
         case "Test":
             return TestGameController(gameModel: gameModel) as MainGameController
+        case "GuessShape":
+            return GuessShapeGameController(gameModel: gameModel) as MainGameController
         default:
             return nil
         }
