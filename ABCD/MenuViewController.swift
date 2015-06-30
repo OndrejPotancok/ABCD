@@ -31,6 +31,8 @@ class MenuViewController: UIViewController {
         }
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        (segue.destinationViewController as! GameViewController).mainGameController = sender as! MainGameController
+        if segue.identifier == "startGame" {
+            (segue.destinationViewController as! GameViewController).mainGameController = sender as! MainGameController
+        }
     }
 }

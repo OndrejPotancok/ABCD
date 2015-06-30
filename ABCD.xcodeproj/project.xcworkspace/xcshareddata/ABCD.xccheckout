@@ -10,14 +10,14 @@
 	<string>ABCD</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>63C5EC3AD4EBA5D5A482A13658CCBEFA2064B13B</key>
+		<key>FAA493727C1FDC716AEDD34E49C71DC2B7EF5110</key>
 		<string>https://github.com/OndrejPotancok/ABCD.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ABCD.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>63C5EC3AD4EBA5D5A482A13658CCBEFA2064B13B</key>
+		<key>FAA493727C1FDC716AEDD34E49C71DC2B7EF5110</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>63C5EC3AD4EBA5D5A482A13658CCBEFA2064B13B</string>
+	<string>FAA493727C1FDC716AEDD34E49C71DC2B7EF5110</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>63C5EC3AD4EBA5D5A482A13658CCBEFA2064B13B</string>
+			<string>FAA493727C1FDC716AEDD34E49C71DC2B7EF5110</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ABCD</string>
 		</dict>
