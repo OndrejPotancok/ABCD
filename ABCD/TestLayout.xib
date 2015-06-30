@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="backgroundView" customClass="TestBackgroundView" customModule="ABCD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="469" y="333"/>
+        </view>
+        <view contentMode="scaleToFill" id="tPQ-Xl-eYQ" userLabel="gameView" customClass="TestGameView" customModule="ABCD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GAMEVIEW" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTw-e6-Ake">
+                    <rect key="frame" x="255" y="289" width="91" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGf-HN-xFU">
+                    <rect key="frame" x="268" y="318" width="64" height="30"/>
+                    <state key="normal" title="Press Me">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressed:" destination="tPQ-Xl-eYQ" eventType="touchUpInside" id="ChR-AA-YOF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="wTw-e6-Ake" secondAttribute="centerX" id="BbR-gt-zaW"/>
+                <constraint firstAttribute="centerY" secondItem="wTw-e6-Ake" secondAttribute="centerY" id="Ke2-rV-Wjb"/>
+                <constraint firstAttribute="centerX" secondItem="kGf-HN-xFU" secondAttribute="centerX" id="Kuj-St-plk"/>
+                <constraint firstItem="kGf-HN-xFU" firstAttribute="top" secondItem="wTw-e6-Ake" secondAttribute="bottom" constant="8" id="m3a-kA-rhG"/>
+            </constraints>
+            <connections>
+                <outlet property="label" destination="wTw-e6-Ake" id="3lC-ht-mD8"/>
+            </connections>
+            <point key="canvasLocation" x="1149" y="333"/>
+        </view>
+        <view contentMode="scaleToFill" id="v1v-9a-2fP" userLabel="hudView" customClass="TestHudView" customModule="ABCD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIS IS HUD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogh-US-Skr">
+                    <rect key="frame" x="250" y="108" width="100" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="Ogh-US-Skr" secondAttribute="centerX" id="FLc-ba-Lax"/>
+                <constraint firstItem="Ogh-US-Skr" firstAttribute="top" secondItem="v1v-9a-2fP" secondAttribute="topMargin" constant="100" id="jWp-9Z-mmW"/>
+            </constraints>
+            <point key="canvasLocation" x="1818" y="333"/>
+        </view>
+    </objects>
+</document>
