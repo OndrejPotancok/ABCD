@@ -46,6 +46,7 @@
 		80A182A01B42D9FB004211FC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1829F1B42D9FB004211FC /* MenuViewController.swift */; };
 		80D127EC1B451CB30029196D /* GuessShapeThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D127EB1B451CB30029196D /* GuessShapeThumbView.swift */; };
 		80D127EE1B451D970029196D /* GuessShapeSiluetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D127ED1B451D970029196D /* GuessShapeSiluetteView.swift */; };
+		80D128011B4521F10029196D /* GuessShape.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D128001B4521F10029196D /* GuessShape.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		80A1829F1B42D9FB004211FC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		80D127EB1B451CB30029196D /* GuessShapeThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessShapeThumbView.swift; sourceTree = "<group>"; };
 		80D127ED1B451D970029196D /* GuessShapeSiluetteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessShapeSiluetteView.swift; sourceTree = "<group>"; };
+		80D128001B4521F10029196D /* GuessShape.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = GuessShape.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				800C52881B4308E9002C785F /* GuessShapeLayout.xib */,
+				80D128001B4521F10029196D /* GuessShape.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -477,6 +480,7 @@
 			files = (
 				8079470C1B41EF7E00C599CB /* ExampleLayout.xib in Resources */,
 				18B05A561B415D6300D7099C /* Main.storyboard in Resources */,
+				80D128011B4521F10029196D /* GuessShape.xcassets in Resources */,
 				800C52931B4308E9002C785F /* GuessShapeLayout.xib in Resources */,
 				807946561B41D1B500C599CB /* TestLayout.xib in Resources */,
 				18B05A5B1B415D6300D7099C /* LaunchScreen.xib in Resources */,
