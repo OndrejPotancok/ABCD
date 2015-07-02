@@ -44,6 +44,8 @@
 		80A1829C1B42D9B1004211FC /* TestGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1829B1B42D9B0004211FC /* TestGameModel.swift */; };
 		80A1829E1B42D9D6004211FC /* controlledTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1829D1B42D9D6004211FC /* controlledTestView.swift */; };
 		80A182A01B42D9FB004211FC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A1829F1B42D9FB004211FC /* MenuViewController.swift */; };
+		80D127EC1B451CB30029196D /* GuessShapeThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D127EB1B451CB30029196D /* GuessShapeThumbView.swift */; };
+		80D127EE1B451D970029196D /* GuessShapeSiluetteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D127ED1B451D970029196D /* GuessShapeSiluetteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,8 @@
 		80A1829B1B42D9B0004211FC /* TestGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestGameModel.swift; sourceTree = "<group>"; };
 		80A1829D1B42D9D6004211FC /* controlledTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlledTestView.swift; sourceTree = "<group>"; };
 		80A1829F1B42D9FB004211FC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		80D127EB1B451CB30029196D /* GuessShapeThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessShapeThumbView.swift; sourceTree = "<group>"; };
+		80D127ED1B451D970029196D /* GuessShapeSiluetteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessShapeSiluetteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +236,8 @@
 				800C52901B4308E9002C785F /* GuessShapeBackgroundView.swift */,
 				800C52911B4308E9002C785F /* GuessShapeGameView.swift */,
 				800C52921B4308E9002C785F /* GuessShapeHudView.swift */,
+				80D127EB1B451CB30029196D /* GuessShapeThumbView.swift */,
+				80D127ED1B451D970029196D /* GuessShapeSiluetteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -495,6 +501,7 @@
 				80A1829C1B42D9B1004211FC /* TestGameModel.swift in Sources */,
 				807947071B41EF7E00C599CB /* ExampleBackgroundView.swift in Sources */,
 				8079463A1B417C1E00C599CB /* MainGameModel.swift in Sources */,
+				80D127EC1B451CB30029196D /* GuessShapeThumbView.swift in Sources */,
 				807946581B41D4A200C599CB /* MainBackgroundView.swift in Sources */,
 				807946351B417B4200C599CB /* HelperFuncs.swift in Sources */,
 				800C52971B4308E9002C785F /* GuessShapeBackgroundView.swift in Sources */,
@@ -516,6 +523,7 @@
 				807946431B417FE800C599CB /* TestGameController.swift in Sources */,
 				800C52951B4308E9002C785F /* GuessShapeGameModel.swift in Sources */,
 				8079470A1B41EF7E00C599CB /* ExampleGameView.swift in Sources */,
+				80D127EE1B451D970029196D /* GuessShapeSiluetteView.swift in Sources */,
 				8079465A1B41D53A00C599CB /* TestBackgroundView.swift in Sources */,
 				807946491B4181A900C599CB /* TestHudView.swift in Sources */,
 				80A1829E1B42D9D6004211FC /* controlledTestView.swift in Sources */,

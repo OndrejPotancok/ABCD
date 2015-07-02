@@ -16,32 +16,32 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl_siluette" translatesAutoresizingMaskIntoConstraints="NO" id="ibr-C9-LwL">
-                    <rect key="frame" x="150" y="50" width="300" height="300"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="300" id="HeD-6e-GSt"/>
-                        <constraint firstAttribute="width" constant="300" id="wV1-Tu-5QT"/>
-                    </constraints>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goat" translatesAutoresizingMaskIntoConstraints="NO" id="5IQ-3B-bqC">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goat" translatesAutoresizingMaskIntoConstraints="NO" id="5IQ-3B-bqC" customClass="GuessShapeThumbView" customModule="ABCD" customModuleProvider="target">
                     <rect key="frame" x="250" y="490" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="YGm-Kk-yBw"/>
                         <constraint firstAttribute="height" constant="100" id="z8b-Qs-8cD"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="irR-mY-QoV">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cow" translatesAutoresizingMaskIntoConstraints="NO" id="irR-mY-QoV" customClass="GuessShapeThumbView" customModule="ABCD" customModuleProvider="target">
                     <rect key="frame" x="490" y="490" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="KL0-n1-uAf"/>
                         <constraint firstAttribute="height" constant="100" id="sIi-uq-FnP"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-0A-AmE">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl" translatesAutoresizingMaskIntoConstraints="NO" id="JZw-0A-AmE" customClass="GuessShapeThumbView" customModule="ABCD" customModuleProvider="target">
                     <rect key="frame" x="10" y="490" width="100" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="Rcp-G5-IVY"/>
                         <constraint firstAttribute="height" constant="100" id="h0T-aL-ijC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="owl_siluette" translatesAutoresizingMaskIntoConstraints="NO" id="ibr-C9-LwL" customClass="GuessShapeSiluetteView" customModule="ABCD" customModuleProvider="target">
+                    <rect key="frame" x="150" y="50" width="300" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="HeD-6e-GSt"/>
+                        <constraint firstAttribute="width" constant="300" id="wV1-Tu-5QT"/>
                     </constraints>
                 </imageView>
             </subviews>
@@ -56,6 +56,12 @@
                 <constraint firstAttribute="bottom" secondItem="JZw-0A-AmE" secondAttribute="bottom" constant="10" id="kn4-qK-3sN"/>
                 <constraint firstAttribute="bottom" secondItem="irR-mY-QoV" secondAttribute="bottom" constant="10" id="ut0-sB-go3"/>
             </constraints>
+            <connections>
+                <outlet property="leftThumb" destination="JZw-0A-AmE" id="Bwf-of-Cao"/>
+                <outlet property="middleThumb" destination="5IQ-3B-bqC" id="wtF-DZ-TKO"/>
+                <outlet property="rightThumb" destination="irR-mY-QoV" id="5AF-3W-R2W"/>
+                <outlet property="siluette" destination="ibr-C9-LwL" id="QV9-98-MJo"/>
+            </connections>
             <point key="canvasLocation" x="1106" y="995"/>
         </view>
         <view contentMode="scaleToFill" id="fxx-LG-pA8" customClass="GuessShapeHudView" customModule="ABCD" customModuleProvider="target">

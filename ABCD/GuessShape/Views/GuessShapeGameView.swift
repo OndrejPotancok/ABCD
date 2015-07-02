@@ -13,4 +13,10 @@ class GuessShapeGameView: MainGameView, controlledGuessShapeView {
     
     weak var gameController: GuessShapeGameController!
     
+    
+    @IBOutlet weak var siluette: GuessShapeSiluetteView!
+    @IBOutlet weak var leftThumb: GuessShapeThumbView!
+    @IBOutlet weak var middleThumb: GuessShapeThumbView!
+    @IBOutlet weak var rightThumb: GuessShapeThumbView!
+    
 }
